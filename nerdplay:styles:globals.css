@@ -1,0 +1,45 @@
+body {
+  background: #0D0D0D;
+  color: #fff;
+  font-family: 'Orbitron', 'Montserrat', 'sans-serif';
+}
+.glassmorphism {
+  background: rgba(13, 13, 13, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(0, 174, 239, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  border: 1px solid rgba(157, 78, 221, 0.2);
+}
+.drop-shadow-neon {
+  filter: drop-shadow(0 0 10px #00FF88) drop-shadow(0 0 20px #00AEEF);
+}
+
+
+.glassmorphism {
+  background: rgba(13, 13, 13, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(0, 174, 239, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  border: 1px solid rgba(157, 78, 221, 0.2);
+}
+.drop-shadow-neon {
+  filter: drop-shadow(0 0 10px #00FF88) drop-shadow(0 0 20px #00AEEF);
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #0D0D0D;
+}
+::-webkit-scrollbar-thumb {
+  background: #00AEEF;
+  border-radius: 8px;
+}
+
+.animate-spin {
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+
+
